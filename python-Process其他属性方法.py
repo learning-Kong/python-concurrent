@@ -59,7 +59,7 @@ if __name__ == '__main__':
     p.join()
     print ('主进程done')
 
-#p.pid： 查看进程的pid
+#（4）p.pid： 查看进程的pid
 from multiprocessing import Process
 import time
 import os
