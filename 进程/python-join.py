@@ -1,4 +1,4 @@
-# -*- conding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # author: "XiangLei Kong"
 
 from multiprocessing import Process

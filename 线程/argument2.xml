@@ -1,0 +1,927 @@
+<Content>
+	
+	<max_username>16</max_username>
+	
+	<worldLevelcount>30</worldLevelcount>
+	
+	
+	<maxlevel>195</maxlevel>
+
+	
+	<pvechangjing>10</pvechangjing>
+	
+	<jiaxiaoxi>
+	
+	<startnum>100</startnum>
+	</jiaxiaoxi>
+	
+	
+	<newplayerflowers>
+		
+		<startTime>2</startTime>
+		
+		<endTime>12</endTime>
+		
+		<number>9</number>
+	</newplayerflowers>
+	
+	
+	<qianghongbao>
+		<startTime />
+		
+		<openday>7</openday>
+		
+		<starthour>8</starthour>
+		
+		<endhour>1</endhour>
+		
+		<interval>1</interval>
+		
+		<conttime>10</conttime>
+		
+		<onedaynum>3</onedaynum>
+	</qianghongbao>
+	
+	
+	<shijieboss>
+		
+		<day>3,5,7</day>
+		
+		<hour>11</hour>
+		
+		<minute>30</minute>
+		
+		<duration>30</duration>
+		
+		<timer>888</timer>
+		
+		<reborn>9999</reborn>
+		
+		<changjing>20</changjing>
+		
+		<bname>&#39764;&#29579;&#20998;&#36523;,&#38647;&#38662;&#39046;&#20027;,&#28872;&#28976;&#39046;&#20027;,&#39118;&#26292;&#39046;&#20027;</bname>
+		
+		<model>333</model>
+		
+		<speed>5666</speed>
+		
+		<faultspeed>4444</faultspeed>
+		
+		<resurgenceinvincible>3333</resurgenceinvincible>
+	</shijieboss>
+
+	
+	<duobaoqibing>
+		
+		<num>2</num>
+		<whiterate>1</whiterate>
+		<greenrate>1.4</greenrate>
+		<redrate>1.6</redrate>
+	</duobaoqibing>
+	
+	<duobao>
+		
+		<day>1,2,4,6</day>
+		
+		<hour>12</hour>
+		
+		<minute>00</minute>
+		
+		<duration>20</duration>
+		
+		<maxLevel>3</maxLevel>
+		
+		<maxNum>80,80,80</maxNum>
+	</duobao>
+
+	
+	
+	<clubboss>
+		
+		<duration>60</duration>
+		
+		<timer>1000</timer>
+		
+		<reborn>10000</reborn>
+		
+		<model>500</model>
+		
+		<speed>7000</speed>
+		
+		<showboss>0</showboss>
+		
+		<punishment>60</punishment>
+		
+		<endtime>20</endtime>
+		
+		<opennum>10,10,10,10,10,10,10,10,10</opennum>
+		
+		<openvip>10,10,10,10,10,10,10</openvip>
+		
+		<resurgenceinvincible>5000</resurgenceinvincible>
+		
+		<openfree>1</openfree>
+	</clubboss>
+	
+	<clubtask>
+		
+		<refresh>20</refresh>
+		
+		<monsternum>3</monsternum>
+		
+		<atttime>5000</atttime>
+		
+		<movet>3333</movet>
+		
+		<mhit>555</mhit>
+		
+		<roomclose>10</roomclose>
+		
+		<maxtasknum>1</maxtasknum>
+		
+		
+		<pspeed>7000</pspeed>
+		
+		
+		<scope0>-2233,-1075,666</scope0>
+		<scope1>2233,-1075,666</scope1>
+		<scope2>0,-134,666</scope2>
+	</clubtask>
+	
+	<clubslot>
+		
+		<daynum>3</daynum>
+		
+		<dayflush>3</dayflush>
+		
+		<cost>20</cost>
+	</clubslot>
+	
+	<clubshake>
+		
+		<daynum>3</daynum>
+		
+		<usecd>3600000</usecd>
+	</clubshake>
+	
+	<clubguess>
+		
+		<daynum>3</daynum>
+		
+		<usecd>3600000</usecd>
+	</clubguess>
+	
+	<clubtaskopen>
+			
+		<colltask>1,3,5,7</colltask>
+			
+		<luckwheel>2,4,6,7</luckwheel>
+			
+		<shakepack>1,3,5,7</shakepack>
+			
+		<guess>2,4,6,7</guess>
+	</clubtaskopen>
+	
+	
+	
+	<taobao>
+		<mbsid>100039</mbsid>
+		
+		<free>3</free>
+		
+		<num>2</num>
+		
+		<start>2016-1-1</start>
+		
+		<end>2016-1-3</end>
+	</taobao>
+
+	<suijishu>
+		
+		<lightcard>1</lightcard>
+		
+		<lightbox>33</lightbox>
+		
+		<getnewcard>23</getnewcard>
+		
+		<firstlight>888</firstlight>
+		
+		<firstchouka>888</firstchouka>
+		
+		<yaoqianflag>888</yaoqianflag>
+		
+		<taobaoflag>928</taobaoflag>
+		
+		<baoshiboxflag>144</baoshiboxflag>
+		
+		<openBox>117</openBox>
+		
+		<jinbizhaomu>127</jinbizhaomu>
+		
+		<firstjinbizhaomu>127</firstjinbizhaomu>
+		
+		<zuanshizhaomu>133</zuanshizhaomu>
+		
+		<firstzuanshizhaomu>124</firstzuanshizhaomu>
+		
+		<juntuanjineng>192</juntuanjineng>
+		
+		<zhekoushangcheng>121</zhekoushangcheng>
+		<mofang>146</mofang>
+		
+		<fanfanle>123</fanfanle>
+		
+		<chongwusuipian>109</chongwusuipian>
+	</suijishu>
+	
+	<tili>
+		
+		<tiliNum>60</tiliNum>
+		
+		<init>80</init>
+		
+		<incTime>600</incTime>
+		<incValue>1</incValue>
+		
+		<unit>55</unit>
+		
+		<zuanshi>5,10</zuanshi>
+	</tili>
+
+	
+	<washcard>
+		
+		<needStarLevel>2</needStarLevel>
+		
+		<xlsid>100033</xlsid>
+	</washcard>
+
+	
+	<juntuanjineng>
+		
+		<hole>1,1,1,2,3,4,5,6</hole>
+		
+		<attrNum>0,1,1,2,2,2,2</attrNum>
+		
+		<areaNum>0,4,8,8,8,8,8</areaNum>
+	</juntuanjineng>
+
+	
+	<kadai>
+		
+		<maxLevel>15</maxLevel>
+		
+		<attrNum>0,0,1,1,2,2,2,3,3,3,3</attrNum>
+		
+		<nextbox>40,30,25,10,100</nextbox>
+		
+		<boxLevel>1,60,80,100</boxLevel>
+		
+		<box1>5</box1>
+		
+		<boxcost0>3000,4000,5000,6000</boxcost0>
+		<boxcost1>5000,6500,8000,9500,9500</boxcost1>
+		<boxcost2>8000,10000,12000,14000,14000</boxcost2>
+		<boxcost3>12000,14000,16000,18000,18000</boxcost3>
+		
+		<light1>100</light1>
+		<light2>75</light2>		
+		
+		<topcard>4,6,7,8</topcard>
+		
+		<times>10</times>
+	</kadai>
+
+	
+	<zhandou>
+		
+		
+		<putonggongji>30,0</putonggongji>
+		
+		<jinenggongji>30,5</jinenggongji>
+		
+		<shouji>5,4</shouji>
+		
+		<baoji>10,5</baoji>
+		
+		<fanji>15,15</fanji>
+		
+		<jisha>30,10</jisha>
+		
+		<angryNum>10,15,18,20,21</angryNum>
+		
+		
+		<trend1>1,1,1,1</trend1>
+		<trend2>1,1,1,1</trend2>
+		<trend3>1,1,1,1</trend3>
+		
+		
+		<xishu1>0,0,0,0,2,0.35</xishu1>
+		<xishu2>0.6,0.2,0,0,0,0</xishu2>
+		<xishu3>0,0.1,0.5,0.3,0,0</xishu3>
+		
+		<yuansu>1</yuansu>
+		<fangyu0>50</fangyu0>
+		<fangyu1>60</fangyu1>
+		<fangyu2>60</fangyu2>
+		
+		<decay>100,95,75,40,25,15,1</decay>
+	</zhandou>
+		
+	
+	<club>
+		<config>
+			<nameMax>10</nameMax>
+			<noticeMax>300</noticeMax>
+			<applyMax>50</applyMax>
+			<applyTimeout>86400</applyTimeout>
+			<playerApplyMax>5</playerApplyMax>
+			<normalName>club_25</normalName>
+			<contributeType>1</contributeType>
+			
+			<updateTime>300</updateTime>
+			
+			<updateproperty>300</updateproperty>
+		</config>
+		
+
+			
+		<destorytime>4320</destorytime>
+		
+		<leavemsgnum>30</leavemsgnum>
+		
+		<clublognum>30</clublognum>
+		
+		<autoleader>5</autoleader>
+		
+		<dismissday>30</dismissday>
+		
+		<applyCount>70</applyCount>
+		
+		<cleancontribute>2592000</cleancontribute>
+		
+		<maxScrollLevel>7</maxScrollLevel>
+		
+		<maxResearchLevel>50</maxResearchLevel>
+	</club>
+	
+	
+	<zhaojiang>
+		<cheattime>4</cheattime>
+		<cheatlevel>4</cheatlevel>
+		
+		<realRand>25</realRand>
+		
+		<suipianRand>100</suipianRand>
+	</zhaojiang>
+	
+	
+	<mission>
+		<fixedMission>
+		<daymission day="1">
+			<mission id="100001" />
+			<mission id="100002" />
+			<mission id="100003" />
+		</daymission>
+			
+			<daymission day="2">
+			<mission id="100004" />
+			<mission id="100005" />
+			<mission id="100006" />
+			</daymission>
+		</fixedMission>
+	
+	
+		<dailyMissionCount>10</dailyMissionCount>
+
+		<dailyModule>
+	<args code="2101" module="4" text="&#33719;&#21462;&#26448;&#26009;" />
+<args code="2204" module="81" text="&#23453;&#30707;&#22478;" />
+<args code="3205" module="220" text="&#21345;&#24102;&#25277;&#21462;" />
+<args code="4206" module="236" text="&#21345;&#24102;&#27927;&#28860;" />
+<args code="1208" module="31" text="&#36865;&#33457;" />
+<args code="5214" module="445" text="&#23456;&#29289;&#31561;&#32423;" />
+<args code="6216" module="19" text="&#20891;&#22242;&#25424;&#29486;" />
+<args code="2217" module="32" text="&#31454;&#25216;&#22330;" />
+<args code="5219" module="436" text="&#31934;&#33521;&#21103;&#26412;" />
+<args code="2222" module="325" text="&#23453;&#30707;&#21512;&#25104;" />
+<args code="2224" module="225" text="&#25307;&#36130;&#29483;" />
+<args code="3225" module="334" text="&#39030;&#27700;&#26524;" />
+<args code="1226" module="317" text="&#23453;&#29289;&#21319;&#26143;" />
+<args code="4228" module="261" text="&#35013;&#22791;&#37492;&#23450;" />
+<args code="2320" module="349" text="&#35013;&#22791;&#31934;&#28860;" />
+<args code="2342" module="530" text="&#20027;&#32447;&#21103;&#26412;" />
+<args code="2333" module="521" text="&#21103;&#26412;&#35780;&#20215;" />
+<args code="2354" module="529" text="&#35797;&#28860;&#20043;&#23627;" />
+<args code="2235" module="614" text="&#30862;&#29255;&#20105;&#22842;" />
+<args code="236" module="618" text="&#29417;&#29454;&#22330;" />
+<args code="2307" module="10" text="&#23494;&#22659;&#25506;&#23453;" />
+<args code="2238" module="209" text="&#21345;&#24102;&#21534;&#22124;" />
+<args code="2139" module="194" text="&#35013;&#22791;&#20998;&#35299;" />
+<args code="2140" module="127" text="&#25195;&#33633;10&#27425;" />
+<args code="2039" module="410" text="&#33521;&#38596;&#31561;&#32423;" />
+<args code="2140" module="431" text="&#33521;&#38596;&#21697;&#38454;" />
+<args code="2118" module="427" text="&#32452;&#38431;&#21103;&#26412;" />
+		</dailyModule>
+				
+		<general>
+			<args code="2102" module="305" />
+			<args code="2103" module="306" />
+			<args code="3101" module="200" />
+			<args code="3102" module="207" />
+			<args code="3106" module="403" />
+			<args code="3108" module="302" />
+			<args code="3109" module="307" />
+			<args code="3111" module="500" />
+			<args code="3113" module="402" />
+		</general>
+	
+		
+		
+		<challenge>
+			<level end="29" start="11" />
+			<level end="129" start="101" />
+			<level end="229" start="201" />
+			<level end="329" start="301" />
+			<level end="429" start="401" />
+			<level end="529" start="501" />
+			<level end="629" start="601" />
+			<level end="729" start="701" />
+			<level end="829" start="801" />
+			<level end="929" start="901" />
+			<level end="1209" start="1001" />
+			<level end="1219" start="1101" />
+			<level end="1229" start="1201" />
+			<level end="1239" start="1301" />
+			<level end="1249" start="1401" />
+		</challenge>
+	</mission>
+	
+	
+	<xunhuanhuodong>
+		
+		<needLevel>1,50,61,72,83,94,105,116,127,138,149,160,181,192,203</needLevel>
+		<gap>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</gap>
+	</xunhuanhuodong>
+	
+	
+	<xilianhuifu_zuanshi>0</xilianhuifu_zuanshi>
+	
+	<jingjichang>
+		
+		<max>2000</max>
+		
+		<max2>7</max2>
+		
+		<group>20,50,100,300</group>
+		
+		<cool>120</cool>
+		
+		<delete>7</delete>
+		
+		<maxstorage>300</maxstorage>
+		
+		<shrink>50</shrink>
+		
+		<hour>19</hour>
+		<minute>30</minute>
+		
+		<lingpai>1,1</lingpai>
+		
+		<yinbi>3000,1000</yinbi>
+		
+		<dropDay>7</dropDay>
+		
+		<dropNum>50</dropNum>
+		
+		<opengap>3</opengap>
+	</jingjichang>
+	
+	<gve>
+		
+		<num>1</num>
+		
+		<roll>100,100</roll>
+	</gve>
+	<freeteam>
+		
+		<num>3</num>
+		
+		<time>0</time>
+		
+		<offline>60000</offline>
+		
+		<roll>133,13</roll>
+		<leadertime>60</leadertime>
+	</freeteam>
+	
+	<songhua>
+		
+		<meilizhi>1,2,10,20,100,200</meilizhi>
+		<free9_vip>0</free9_vip>
+		<free99_vip>8</free99_vip>
+		
+		<level>1</level>
+		
+		<flower>1</flower>
+	</songhua>
+	
+	<property>
+		<yinbi>20000</yinbi>
+		<zuanshi>0</zuanshi>
+		<vip>0</vip>
+	</property>
+	
+	
+	
+	<FubenConfig>
+		<fuben type="0">online.game.module.fuben.PTFubenData</fuben>
+		<fuben type="1">online.game.module.fuben.JYFubenData</fuben>
+	</FubenConfig>
+	
+	<chaorenbaoxiang>
+		
+		<gap>7200,7200</gap>
+		<max>5</max>
+	</chaorenbaoxiang>
+	
+
+	<npclogin>
+	
+	<data_key>7123567</data_key>
+	
+	<token_key>02341</token_key>
+	
+	<clientkey>843523</clientkey>
+	</npclogin>
+	
+	
+	<RedNotifier>
+		<UseDelayTask>false</UseDelayTask>
+		<TaskTime>500</TaskTime>
+	</RedNotifier>
+	
+	<shangcheng>
+		
+		<gap>10800</gap>
+		
+		<flushNum>5</flushNum>
+		
+		<xsstart>2018-1-1,2018-1-17</xsstart>
+		
+		<xsend>2018-1-2,2018-1-18</xsend>
+	</shangcheng>
+	
+	<SuiPianZhengDuo>
+		<max>5</max>
+		<extend>10</extend>
+		<ranges>
+			<range end="3" extrarank0="0" extrarank1="510" size="4" start="-2" />
+			<range end="2" extrarank0="310" extrarank1="810" size="3" start="-2" />
+			<range end="-2" extrarank0="610" extrarank1="1110" size="5" start="-5" />
+		</ranges>
+	</SuiPianZhengDuo>
+	
+	<paimai>
+		
+		<time>48</time>
+		
+		<flag>0</flag>
+	</paimai>
+	
+	<ShouLie>
+		<recovery>1</recovery>
+		<recoverytime>300</recoverytime>
+		<recoverymax>50</recoverymax>
+		<initvalue>500</initvalue>
+		<maxcredit>-500</maxcredit>
+		<feedbackRate>0.9</feedbackRate>
+		<maxbullent>999999</maxbullent>
+		
+		<specialbullet>5</specialbullet>
+		<tutorial>
+			<monster count="5" />
+			<boss id="370016" />
+			<max value="25" />
+		</tutorial>
+		
+		<task>
+			
+			<interval>600,900</interval>
+			
+			<surpriseRand>1,2</surpriseRand>
+			
+			<boxcondition>1,2</boxcondition>
+			
+			<boxmodule module="1020023" />
+			
+			
+			<buffjx condition="50" kind="0" num="5" />
+			
+			<mission condition="180" index="0" kill="1020002" kind="0" targetnum="5" time="600" />
+			
+			<boxjx blood="30" condition="100" time="30" />
+		</task>
+	</ShouLie>
+	
+	
+	<qiangqin>
+		
+		<time>86400</time>
+		
+		<num>3</num>
+		
+		<maxnum>5</maxnum>
+		
+		<maxnum2>5</maxnum2>
+		
+		<maxnum3>3</maxnum3>
+		
+		<cooltime>10</cooltime>
+		
+		<unit>10</unit>
+	</qiangqin>
+	
+	
+	
+	<ClubRedPacket>
+		
+		<packLimit>5000</packLimit>	
+		
+		<packPastude>1440</packPastude>
+			
+		<packSaveLimit>20</packSaveLimit>
+	</ClubRedPacket>
+	
+	
+	<WeiXin>
+		
+		<dynamicLoad>false</dynamicLoad>
+		
+		<logDebug>true</logDebug>
+	</WeiXin>
+	
+		
+	<ClientVersion>
+		<configPath>/data/gameserver/conf/a.xml</configPath>
+	</ClientVersion>
+	
+	<GM>
+		<ChatLog>true</ChatLog>
+		
+		<Chaturl />
+		
+		<KaiFuStartAt>2017-12-16</KaiFuStartAt>
+		
+		<KaiFuEndAt>2017-12-22</KaiFuEndAt>
+		<OldNoneRmbJiangLi>320099</OldNoneRmbJiangLi>
+	</GM>
+
+	
+
+	<answer>
+		
+		<startWeek>3,5,7</startWeek>
+		
+		<startTime>13,00</startTime>
+		
+		<openTime>30</openTime>
+		
+		<rankTime>60</rankTime>
+		
+		<beforshow>10</beforshow>
+		
+		<answernum>30</answernum>
+		
+		<ranknum>30</ranknum>
+		
+		<twoselect>5</twoselect>
+		
+		<timespace>1500</timespace>
+	</answer>
+
+
+	
+
+	<huodongyouxi>
+		
+		<openTime>2018-1-1,2018-1-9</openTime>
+		
+		<closeTime>2018-1-2,2018-1-10</closeTime>
+		
+		<openTime2>2018-1-4,2018-1-8,2018-1-12</openTime2>
+		
+		<closeTime2>2018-1-5,2018-1-8,2018-1-13</closeTime2>
+		
+		<num2>10</num2>
+		
+		<zuanshineed>100</zuanshineed>
+		
+		<fflstart>2018-1-6,2018-1-30</fflstart>
+		
+		<fflend>2018-1-7,2018-1-31</fflend>
+		
+		<fflmaxtime>1</fflmaxtime>
+	</huodongyouxi>
+
+	<juntuanzhan>
+		
+		<day>3,5</day>
+		
+		<hour>20</hour>
+		<minute>00</minute>
+		
+		<stage1>130</stage1>
+		
+		<stage2>120</stage2>
+		
+		<ready>90</ready>
+		
+		<flush>1</flush>
+		
+		<auto>0</auto>
+		
+		<autoNum>0</autoNum>
+		
+		<debuff>6</debuff>
+		
+		<auto2>0</auto2>
+		
+		<autoNum2>0</autoNum2>
+	</juntuanzhan>
+	
+	
+	<downloadaward>
+		<jlid>3333</jlid>
+	</downloadaward>
+	
+	<monstersiege>
+		
+		<startWeek>1,3,5</startWeek>
+		
+		<startTime>21,00</startTime>
+		
+		<openTime>30</openTime>
+		
+		<calldelay>15</calldelay>
+		
+		<playeratttime>1000</playeratttime>
+		
+		<playerdedtime>20000</playerdedtime>
+		
+		
+		<monstermove>5000</monstermove>
+		
+		<monsterspeed>3500</monsterspeed>
+		
+		<playerspeed>7000</playerspeed>
+		
+		
+		<roomplayer>10</roomplayer>
+		
+		<puntime>30</puntime>
+		
+		<tqtime>5</tqtime>
+		
+		<boxtime>5</boxtime>
+		
+		<mapparam>0,0,1600</mapparam>
+		
+		<monsterpoint>0:1,1:3,2:8</monsterpoint>
+		
+		<robomtime>5000</robomtime>
+		
+		<bossbox>100</bossbox>
+		
+		<notfaward>10090,11001,11002,11093,11004,10095,11006,11097</notfaward>
+	</monstersiege>
+		
+	<jihuoma>
+		<enableSpecialCode>true</enableSpecialCode>
+		<SpecialCodeBatch>10000</SpecialCodeBatch>
+		<SpecialCodeBatch2>30</SpecialCodeBatch2>
+	</jihuoma>
+	
+	<shiergong>
+		<redlevel>20</redlevel>
+		<resetcost>10</resetcost>
+		<videosize>10</videosize>
+	</shiergong>
+
+	<dadoudou>
+		
+		<tableid>2120002</tableid>
+		
+		<openDate>2018-6-1</openDate>
+		
+		<closeDate>2018-6-2</closeDate>
+		
+		<hour>15</hour>
+		
+		<minute>00</minute>
+		
+		<duration>170</duration>
+		
+		<showicon>15</showicon>
+		
+		<monsternum>9</monsternum>
+		
+		<recordNum>30</recordNum>
+	</dadoudou>
+	
+	
+	<bawangdalu>
+		
+		<reliveCost>200</reliveCost>
+		
+		<reliveNum>3</reliveNum>
+		
+		<atk>50</atk>
+		<spd>60</spd>
+		<def>1</def>
+		<hp>20</hp>
+		
+		<need>20</need>
+		
+		<needteam>70</needteam>
+	</bawangdalu>
+
+	<uistate>
+		<jrth>0</jrth>
+	</uistate>
+	<jianianhua>
+		
+		<openTime>2017-7-1</openTime>
+		
+		<closeTime>2017-7-2</closeTime>
+		
+		<new>2,8</new>
+	</jianianhua>
+	<xingyunlihe>
+		
+		<openTime>2018-7-31,2018-8-3</openTime>
+		
+		<closeTime>2018-7-31,2018-8-3</closeTime>
+	</xingyunlihe>
+	<paiweisai>
+		
+		<sHour>10</sHour>
+		<sMinute>0</sMinute>
+		
+		<eHour>22</eHour>
+		<eMinute>0</eMinute>
+		
+		<battleNum>10</battleNum>
+		
+		<cool>180</cool>
+		
+		<scoreGap>300</scoreGap>
+		
+		<flag>0</flag>
+	</paiweisai>
+	<huiguihuodong>
+		
+		<openTime>2017-12-27</openTime>
+		
+		<closeTime>2018-1-10</closeTime>
+	</huiguihuodong>
+	<chenghaoshangcheng>
+		
+		<openTime>2018-1-14,2018-1-21</openTime>
+		
+		<closeTime>2018-1-15,2018-1-22</closeTime>
+	</chenghaoshangcheng>
+    <huodongred>
+		
+		<openTime>2017-12-7</openTime>
+		
+		<closeTime>2018-1-30</closeTime>
+		
+		<max>30</max>
+	</huodongred>
+	<chaozhijuhui>
+		
+		<openTime>2018-1-9,2018-1-25</openTime>
+		
+		<closeTime>2018-1-10,2018-1-26</closeTime>
+		
+		<recharge>0,3280,12960</recharge>
+		
+		<buyCount>1,2,3</buyCount>		
+		
+		<goodstable>244</goodstable>
+	</chaozhijuhui>
+	
+	<doublerecharge>
+		
+		<openTime>2018-1-5,2018-1-14,2018-1-21</openTime>
+		
+		<closeTime>2018-1-5,2018-1-14,2018-1-21</closeTime>		
+		
+		<agentType>0</agentType>
+		
+		<whiltAgent>1,2,3,4,5,6,7,8,9</whiltAgent>
+		
+		<blackAgent>11111</blackAgent>
+	</doublerecharge>
+</Content>

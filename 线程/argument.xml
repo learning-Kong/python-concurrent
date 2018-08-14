@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Content>
+	<!-- 用户名最大长度 -->
+	<max_username>16</max_username>
+	<!--等级限制专用 计算世界平均等级的人数-->
+	<worldLevelcount>30</worldLevelcount>
+	
+	<!-- 玩家最高等级 -->
+	<maxlevel>195</maxlevel>
+
+	<!-- PVE场景人数 -->
+	<pvechangjing>10</pvechangjing>
+	
+	<jiaxiaoxi>
+	<!-- 假消息启动数-->
+	<startnum>100</startnum>
+	</jiaxiaoxi>
+	
+	<!-- 新用户匿名送花配置 -->
+	<newplayerflowers>
+		<!-- 第几章 -->
+		<startTime>2</startTime>
+		<!-- 第几关 -->
+		<endTime>12</endTime>
+		<!-- 送花数量-->
+		<number>9</number>
+	</newplayerflowers>
+	
+	<!-- 抢红包 -->
+	<qianghongbao>
+		<startTime></startTime>
+		<!-- 功能距开服开放多少天 -->
+		<openday>7</openday>
+		<!-- 活动开放周期开启（每天几点钟开启） -->
+		<starthour>8</starthour>
+		<!-- 活动开放周期开启（每天几点钟结束）如果这个时间小于了开启时间 则认为是开启到第二天的这个点结束 -->
+		<endhour>1</endhour>
+		<!-- 间隔多少小时开启一次-->
+		<interval>1</interval>
+		<!-- 活动持续时间 (分钟)-->
+		<conttime>10</conttime>
+		<!-- 每人每天可抢次数-->
+		<onedaynum>3</onedaynum>
+	</qianghongbao>
+	
+	<!-- 世界BOSS -->
+	<shijieboss>
+		<!-- 一周开启日期(例：星期天为1，星期六为7)-->
+		<day>3,5,7</day>
+		<!-- 开启时间(小时) -->
+		<hour>11</hour>
+		<!-- 开启时间(分钟) -->
+		<minute>30</minute>
+		<!-- 活动持续时间(分钟)-->
+		<duration>30</duration>
+		<!-- 玩家攻击计时器（毫秒）1秒-->
+		<timer>888</timer>
+		<!-- 玩家复活倒计时(毫秒) -->
+		<reborn>9999</reborn>
+		<!-- 场景人数 -->
+		<changjing>20</changjing>
+		<!-- BOSS名（世界，雷，火，风） -->
+		<bname>魔王分身,雷霆领主,烈焰领主,风暴领主</bname>
+		<!-- BOSS模型所占半径 -->
+		<model>333</model>
+		<!-- 玩家移动速度，放大后的-->
+		<speed>5666</speed>
+		<!-- 玩家移动速度容错值，大于了这个速度的玩家将被退出BOSS房间-->
+		<faultspeed>4444</faultspeed>
+		<!-- 复活后无敌时间（毫秒）-->
+		<resurgenceinvincible>3333</resurgenceinvincible>
+	</shijieboss>
+
+	<!-- 夺宝奇兵 -->
+	<duobaoqibing>
+		<!--副本每日最大可挑战次数 -->
+		<num>2</num>
+		<whiterate>1</whiterate>
+		<greenrate>1.4</greenrate>
+		<redrate>1.6</redrate>
+	</duobaoqibing>
+	<!-- 夺宝 -->
+	<duobao>
+		<!-- 一周开启日期(例：星期天为1，星期六为7)-->
+		<day>1,2,4,6</day>
+		<!-- 开启时间(小时) -->
+		<hour>12</hour>
+		<!-- 开启时间(分钟) -->
+		<minute>00</minute>
+		<!-- 活动持续时间(分钟)-->
+		<duration>20</duration>
+		<!-- 最大关卡数-->
+		<maxLevel>3</maxLevel>
+		<!--关卡最大怪物数量序列-->
+		<maxNum>80,80,80</maxNum>
+	</duobao>
+
+	
+	<!--军团boss -->
+	<clubboss>
+		<!-- 活动持续时间(分钟)-->
+		<duration>60</duration>
+		<!-- 玩家攻击计时器（毫秒）1秒-->
+		<timer>1000</timer>
+		<!-- 玩家复活倒计时(毫秒) -->
+		<reborn>10000</reborn>
+		<!-- BOSS模型所占半径 -->
+		<model>500</model>
+		<!-- 玩家移动速度，放大后的-->
+		<speed>7000</speed>
+		<!-- 活动开启后多少秒BOSS出现 (目前军团BOSS没有动画，所以默认0秒，表示一开启BOSS就已经出现了)-->
+		<showboss>0</showboss>
+		<!-- 玩家中途退出惩罚时间（秒）-->
+		<punishment>60</punishment>
+		<!-- BOSS死亡或时间到后 多少秒关闭场景-->
+		<endtime>20</endtime>
+		<!-- 军团BOSS每天可开启次数(从等级1开始，以小写逗号分隔（,） 如果配置长度小于游戏内军团等级则按照最大的配置次数计算)-->
+		<opennum>10,10,10,10,10,10,10,10,10</opennum>
+		<!-- vip等级每日可开启boss次数 （从vip0开始，以小写逗号分隔（,）  如果配置长度不足游戏内最大vip则按最大开启次数计算）-->
+		<openvip>10,10,10,10,10,10,10</openvip>
+		<!-- 复活后无敌时间（毫秒）-->
+		<resurgenceinvincible>5000</resurgenceinvincible>
+		<!--免费召唤次数-->
+		<openfree>1</openfree>
+	</clubboss>
+	<!-- 军团收集任务配置 -->
+	<clubtask>
+		<!-- 刷新消耗钻石数 -->
+		<refresh>20</refresh>
+		<!-- 场景内每个类型的怪物上限 -->
+		<monsternum>3</monsternum>
+		<!-- 击败怪物所需时间 (毫秒)-->
+		<atttime>5000</atttime>
+		<!-- 怪物移动频率(毫秒)-->
+		<movet>3333</movet>
+		<!-- 怪物受伤频率(毫秒)-->
+		<mhit>555</mhit>
+		<!-- 没有玩家在场景，并且怪物已刷满的情况下  等待多久关闭场景（分钟）-->
+		<roomclose>10</roomclose>
+		<!-- 每日任务次数 -->
+		<maxtasknum>1</maxtasknum>
+		
+		<!-- 玩家移动速度(放大后的)-->
+		<pspeed>7000</pspeed>
+		
+		<!-- 怪物行走区域中心点(中心点x，中心点z,半径)-->
+		<scope0>-2233,-1075,666</scope0>
+		<scope1>2233,-1075,666</scope1>
+		<scope2>0,-134,666</scope2>
+	</clubtask>
+	<!-- 军团老虎机 -->
+	<clubslot>
+		<!-- 军团老虎机每日使用次数 -->
+		<daynum>3</daynum>
+		<!-- 每日免费刷新次数-->
+		<dayflush>3</dayflush>
+		<!-- 收费刷新消耗钻石-->
+		<cost>20</cost>
+	</clubslot>
+	<!-- 军团摇一摇配置 -->
+	<clubshake>
+		<!-- 每日使用次数 -->
+		<daynum>3</daynum>
+		<!-- 每次使用CD时间  毫秒-->
+		<usecd>3600000</usecd>
+	</clubshake>
+	<!-- 军团猜英雄活动配置 -->
+	<clubguess>
+		<!-- 每日使用次数 -->
+		<daynum>3</daynum>
+		<!-- 每次使用CD时间  毫秒-->
+		<usecd>3600000</usecd>
+	</clubguess>
+	<!-- 军团任务每周开启时间 配置为星期几，用逗号分隔 -->
+	<clubtaskopen>
+		<!-- 军团收集任务 -->	
+		<colltask>1,3,5,7</colltask>
+		<!-- 幸运魔轮 -->	
+		<luckwheel>2,4,6,7</luckwheel>
+		<!-- 摇摆礼盒 -->	
+		<shakepack>1,3,5,7</shakepack>
+		<!-- 猜英雄 -->	
+		<guess>2,4,6,7</guess>
+	</clubtaskopen>
+	
+	
+	<!--秘宝符ID -->
+	<taobao>
+		<mbsid>100039</mbsid>
+		<!-- 淘宝每日免费次数 -->
+		<free>3</free>
+		<!--淘宝符额外数量-->
+		<num>2</num>
+		<!--额外数量开始时间-->
+		<start>2016-1-1</start>
+		<!--额外数量结束时间(最后一天)-->
+		<end>2016-1-3</end>
+	</taobao>
+
+	<suijishu>
+		<!--抽卡(点亮之后) -->
+		<lightcard>1</lightcard>
+		<!--自然点亮宝箱 -->
+		<lightbox>33</lightbox>
+		<!--抽卡随机数 -->
+		<getnewcard>23</getnewcard>
+		<!--第一次点亮随机数 -->
+		<firstlight>888</firstlight>
+		<!--第一次抽卡随机数 -->
+		<firstchouka>888</firstchouka>
+		<!--招财暴击随机数 -->
+		<yaoqianflag>888</yaoqianflag>
+		<!--淘宝 -->
+		<taobaoflag>928</taobaoflag>
+		<!--宝石箱子 -->
+		<baoshiboxflag>144</baoshiboxflag>
+		<!--招财开宝箱-->
+		<openBox>117</openBox>
+		<!--金币10连招-->
+		<jinbizhaomu>127</jinbizhaomu>
+		<!--首次金币10连招-->
+		<firstjinbizhaomu>127</firstjinbizhaomu>
+		<!--钻石10连招-->
+		<zuanshizhaomu>133</zuanshizhaomu>
+		<!--首钻石10连招-->
+		<firstzuanshizhaomu>124</firstzuanshizhaomu>
+		<!-- 军团技能开孔 -->
+		<juntuanjineng>192</juntuanjineng>
+		<!-- 折扣商城随机 -->
+		<zhekoushangcheng>121</zhekoushangcheng>
+		<mofang>146</mofang>
+		<!--翻翻乐随机-->
+		<fanfanle>123</fanfanle>
+		<!-- 宠物碎片随机 -->
+		<chongwusuipian>109</chongwusuipian>
+	</suijishu>
+	
+	<tili>
+		<!--购买一次体力增加的数值 -->
+		<tiliNum>60</tiliNum>
+		<!--初始体力 -->
+		<init>80</init>
+		
+		<incTime>600</incTime>
+		<incValue>1</incValue>
+		<!-- 消耗指定体力可以累计钻石 -->
+		<unit>55</unit>
+		<!-- 单次累计的钻石(最小值，最大值) -->
+		<zuanshi>5,10</zuanshi>
+	</tili>
+
+	<!-- 卡片洗点 -->
+	<washcard>
+		<!-- 卡片洗点的起始星级 （0:1星）-->
+		<needStarLevel>2</needStarLevel>
+		<!--洗练石ID -->
+		<xlsid>100033</xlsid>
+	</washcard>
+
+	<!-- 军团技能相关 -->
+	<juntuanjineng>
+		<!-- 开新孔对应卷轴等级要求 -->
+		<hole>1,1,1,2,3,4,5,6</hole>
+		<!-- 卷轴等级对应额外属性数 -->
+		<attrNum>0,1,1,2,2,2,2</attrNum>
+		<!-- 卷轴等级对应额外属性区间 -->
+		<areaNum>0,4,8,8,8,8,8</areaNum>
+	</juntuanjineng>
+
+	<!-- 卡带相关 -->
+	<kadai>
+		<!-- 卡带上限等级 -->
+		<maxLevel>15</maxLevel>
+		<!-- 卡带各星级随机属性数量 -->
+		<attrNum>0,0,1,1,2,2,2,3,3,3,3</attrNum>
+		<!--开启下一个箱子的概率 -->
+		<nextbox>40,30,25,10,100</nextbox>
+		<!--宝箱档次分阶(0-3) -->
+		<boxLevel>1,60,80,100</boxLevel>
+		<!-- 开启神级宝箱阶段 -->
+		<box1>5</box1>
+		<!--开启箱子所需的花费(铜币) -->
+		<boxcost0>3000,4000,5000,6000</boxcost0>
+		<boxcost1>5000,6500,8000,9500,9500</boxcost1>
+		<boxcost2>8000,10000,12000,14000,14000</boxcost2>
+		<boxcost3>12000,14000,16000,18000,18000</boxcost3>
+		<!--点亮箱子(开启下一个箱子概率) -->
+		<light1>100</light1>
+		<light2>75</light2>		
+		<!--各阶段高级卡片对应的起始星级 -->
+		<topcard>4,6,7,8</topcard>
+		<!--玩家每日钻石10连抽的次数-->
+		<times>10</times>
+	</kadai>
+
+	<!--战斗系数 -->
+	<zhandou>
+		<!-- 怒气系统 -->
+		<!--普通攻击(怒气基础值,增量) -->
+		<putonggongji>30,0</putonggongji>
+		<!--技能攻击(怒气基础值,增量) -->
+		<jinenggongji>30,5</jinenggongji>
+		<!--受击(怒气基础值,增量)-->
+		<shouji>5,4</shouji>
+		<!--暴击(怒气基础值,增量)-->
+		<baoji>10,5</baoji>
+		<!--反击(怒气基础值,增量)-->
+		<fanji>15,15</fanji>
+		<!--击杀(怒气基础值,增量)-->
+		<jisha>30,10</jisha>
+		<!-- 怒气技能加成（个位为小数位） -->
+		<angryNum>10,15,18,20,21</angryNum>
+		<!--伙伴属性倾向【肉盾,DPS,辅助】-->
+		<!-- 攻击、防御、速度、生命 -->
+		<trend1>1,1,1,1</trend1>
+		<trend2>1,1,1,1</trend2>
+		<trend3>1,1,1,1</trend3>
+		<!-- 伙伴类型【肉盾，DPS，辅助】职业系数 -->
+		<!-- 【力量or智力-攻击】,【力量or智力-防御】,【敏捷-速度】,【敏捷-攻击】,【体质-生命】,【体质-防御】-->
+		<xishu1>0,0,0,0,2,0.35</xishu1>
+		<xishu2>0.6,0.2,0,0,0,0</xishu2>
+		<xishu3>0,0.1,0.5,0.3,0,0</xishu3>
+		<!--1点元素转换成的攻击指数-->
+		<yuansu>1</yuansu>
+		<fangyu0>50</fangyu0>
+		<fangyu1>60</fangyu1>
+		<fangyu2>60</fangyu2>
+		<!-- 跨星级buff衰减系数 -->
+		<decay>100,95,75,40,25,15,1</decay>
+	</zhandou>
+		
+	<!-- 军团 -->
+	<club>
+		<config>
+			<nameMax>10</nameMax>
+			<noticeMax>300</noticeMax>
+			<applyMax>50</applyMax>
+			<applyTimeout>86400</applyTimeout>
+			<playerApplyMax>5</playerApplyMax>
+			<normalName>club_25</normalName>
+			<contributeType>1</contributeType>
+			<!-- 刷新军团排名定时器（秒） -->
+			<updateTime>300</updateTime>
+			<!-- 定时刷新军团属性定时器（秒） -->
+			<updateproperty>300</updateproperty>
+		</config>
+		
+
+		<!-- 解散军团需要的等待时间，分钟 -->	
+		<destorytime>4320</destorytime>
+		<!-- 留言板保存多少条留言-->
+		<leavemsgnum>30</leavemsgnum>
+		<!-- 军团日志保留多少条记录-->
+		<clublognum>30</clublognum>
+		<!--自动转让团长机制时间（天）-->
+		<autoleader>5</autoleader>
+		<!--自动解散军团时间（天）-->
+		<dismissday>30</dismissday>
+		<!--每日最大添加成员次数-->
+		<applyCount>70</applyCount>
+		<!--超时清除贡献值（秒）-->
+		<cleancontribute>2592000</cleancontribute>
+		<!-- 卷轴最大等级 -->
+		<maxScrollLevel>7</maxScrollLevel>
+		<!-- 研究所最大等级 -->
+		<maxResearchLevel>50</maxResearchLevel>
+	</club>
+	
+	<!-- 招将 -->
+	<zhaojiang>
+		<cheattime>4</cheattime>
+		<cheatlevel>4</cheatlevel>
+		<!--高级十连招真随机出两个四星的概率-->
+		<realRand>25</realRand>
+		<!--碎片合成出五星的概率-->
+		<suipianRand>100</suipianRand>
+	</zhaojiang>
+	
+	<!-- 任务 -->
+	<mission>
+		<fixedMission>
+		<daymission day="1" >
+			<mission id="100001"/>
+			<mission id="100002"/>
+			<mission id="100003"/>
+		</daymission>
+			
+			<daymission day="2" >
+			<mission id="100004"/>
+			<mission id="100005"/>
+			<mission id="100006"/>
+			</daymission>
+		</fixedMission>
+	
+	
+		<dailyMissionCount>10</dailyMissionCount>
+
+		<dailyModule>
+	<args module="4" code="2101" text="获取材料" />
+<args module="81" code="2204" text="宝石城" />
+<args module="220" code="3205" text="卡带抽取" />
+<args module="236" code="4206" text="卡带洗炼" />
+<args module="31" code="1208" text="送花" />
+<args module="445" code="5214" text="宠物等级" />
+<args module="19" code="6216" text="军团捐献" />
+<args module="32" code="2217" text="竞技场" />
+<args module="436" code="5219" text="精英副本" />
+<args module="325" code="2222" text="宝石合成" />
+<args module="225" code="2224" text="招财猫" />
+<args module="334" code="3225" text="顶水果" />
+<args module="317" code="1226" text="宝物升星" />
+<args module="261" code="4228" text="装备鉴定" />
+<args module="349" code="2320" text="装备精炼" />
+<args module="530" code="2342"  text="主线副本" />
+<args module="521" code="2333"  text="副本评价" />
+<args module="529" code="2354" text="试炼之屋" />
+<args module="614" code="2235" text="碎片争夺" />
+<args module="618" code="236" text="狩猎场" />
+<args module="10" code="2307" text="密境探宝" />
+<args module="209" code="2238" text="卡带吞噬" />
+<args module="194" code="2139" text="装备分解" />
+<args module="127" code="2140" text="扫荡10次" />
+<args module="410" code="2039" text="英雄等级" />
+<args module="431" code="2140" text="英雄品阶" />
+<args module="427" code="2118" text="组队副本" />
+		</dailyModule>
+				
+		<general>
+			<args module="305" code="2102" />
+			<args module="306" code="2103" />
+			<args module="200" code="3101"  />
+			<args module="207" code="3102"  />
+			<args module="403" code="3106"  />
+			<args module="302" code="3108"  />
+			<args module="307" code="3109"  />
+			<args module="500" code="3111"  />
+			<args module="402" code="3113"  />
+		</general>
+	
+		
+		
+		<challenge>
+			<level start="11" end="29"/>
+			<level start="101" end="129"/>
+			<level start="201" end="229"/>
+			<level start="301" end="329"/>
+			<level start="401" end="429"/>
+			<level start="501" end="529"/>
+			<level start="601" end="629"/>
+			<level start="701" end="729"/>
+			<level start="801" end="829"/>
+			<level start="901" end="929"/>
+			<level start="1001" end="1209"/>
+			<level start="1101" end="1219"/>
+			<level start="1201" end="1229"/>
+			<level start="1301" end="1239"/>
+			<level start="1401" end="1249"/>
+		</challenge>
+	</mission>
+	
+	<!-- 循环活动 -->
+	<xunhuanhuodong>
+		<!-- needLevel和gap必须一一对应-->
+		<needLevel>1,50,61,72,83,94,105,116,127,138,149,160,181,192,203</needLevel>
+		<gap>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</gap>
+	</xunhuanhuodong>
+	
+	<!-- 装备洗练恢复消耗钻石 -->
+	<xilianhuifu_zuanshi>0</xilianhuifu_zuanshi>
+	
+	<jingjichang>
+		<!-- 排行榜最多存储玩家数 -->
+		<max>2000</max>
+		<!-- 最大可挑战数(包含自己) -->
+		<max2>7</max2>
+		<!-- 排行榜分组标识 -->
+		<group>20,50,100,300</group>
+		<!-- 挑战后冷却时间(秒)-->
+		<cool>120</cool>
+		<!-- 竞技场战斗录像过期时间(天) -->
+		<delete>7</delete>
+		<!-- 录像缓存最大容量 -->
+		<maxstorage>300</maxstorage>
+		<!-- 录像缓存最大时的压缩值-->
+		<shrink>50</shrink>
+		<!-- 竞技场每日奖励发放时间 -->
+		<hour>19</hour>
+		<minute>30</minute>
+		<!-- 挑战后令牌奖励（胜利，失败）  -->
+		<lingpai>1,1</lingpai>
+		<!-- 挑战后银币奖励（胜利，失败）  -->
+		<yinbi>3000,1000</yinbi>
+		<!-- 排名掉落机制,启动时长（默认：玩家7天不上线） -->
+		<dropDay>7</dropDay>
+		<!-- 排名掉落机制,一次掉落名次(默认:50)-->
+		<dropNum>50</dropNum>
+		<!-- 特殊排名奖励发放开服前X天（0:表示不开） -->
+		<opengap>3</opengap>
+	</jingjichang>
+	
+	<gve>
+		<!--GVE副本每日最大可挑战次数 -->
+		<num>1</num>
+		<!--roll点权值-->
+		<roll>100,100</roll>
+	</gve>
+	<freeteam>
+		<!--FreeGVE副本每日最大可挑战次数 -->
+		<num>3</num>
+		<!--FreeGVE冷却时间-->
+		<time>0</time>
+		<!--断线时间(毫秒)-->
+		<offline>60000</offline>
+		<!--roll点权值-->
+		<roll>133,13</roll>
+		<leadertime>60</leadertime>
+	</freeteam>
+	
+	<songhua>
+		<!--送花时[自己,对方...]获得魅力值-->
+		<meilizhi>1,2,10,20,100,200</meilizhi>
+		<free9_vip>0</free9_vip>
+		<free99_vip>8</free99_vip>
+		<!--新玩家限制生效等级 -->
+		<level>1</level>
+		<!--新玩家限制送花数量 -->
+		<flower>1</flower>
+	</songhua>
+	
+	<property>
+		<yinbi>20000</yinbi>
+		<zuanshi>0</zuanshi>
+		<vip>0</vip>
+	</property>
+	
+	
+	<!-- 副本 -->
+	<FubenConfig>
+		<fuben type="0">online.game.module.fuben.PTFubenData</fuben>
+		<fuben type="1">online.game.module.fuben.JYFubenData</fuben>
+	</FubenConfig>
+	
+	<chaorenbaoxiang>
+		<!--时长奖励发放间隔（单位秒，默认为1.5小时-2.5小时 ）-->
+		<gap>7200,7200</gap>
+		<max>5</max>
+	</chaorenbaoxiang>
+	
+
+	<npclogin>
+	<!-- CA DATA参数加密key -->
+	<data_key>7123567</data_key>
+	<!-- CA TOKEN参数加密key -->
+	<token_key>02341</token_key>
+	<!-- 客户端登陆参数MD5验证key -->
+	<clientkey>843523</clientkey>
+	</npclogin>
+	
+	<!-- 红点通知 -->
+	<RedNotifier>
+		<UseDelayTask>false</UseDelayTask>
+		<TaskTime>500</TaskTime>
+	</RedNotifier>
+	
+	<shangcheng>
+		<!--随机商城刷新间隔3*60*60-->
+		<gap>10800</gap>
+		<!--随机商城每日最大手动刷新次数-->
+		<flushNum>5</flushNum>
+		<!-- 限时商城开启时间(年-月-日)-->
+		<xsstart>2018-1-1,2018-1-17</xsstart>
+		<!-- 限时商城关闭时间(年-月-日(包含当天))-->
+		<xsend>2018-1-2,2018-1-18</xsend>
+	</shangcheng>
+	<!-- 碎片争夺 -->
+	<SuiPianZhengDuo>
+		<max>5</max>
+		<extend>10</extend>
+		<ranges>
+			<range start="-2" end="3" extrarank0="0" extrarank1="510" size="4" />
+			<range start="-2" end="2" extrarank0="310" extrarank1="810" size="3" />
+			<range start="-5" end="-2" extrarank0="610" extrarank1="1110" size="5" />
+		</ranges>
+	</SuiPianZhengDuo>
+	
+	<paimai>
+		<!-- 上架时间(小时) -->
+		<time>48</time>
+		<!--拍卖行所有物品下架（合服时才需调成1）-->
+		<flag>0</flag>
+	</paimai>
+	
+	<ShouLie>
+		<recovery>1</recovery>
+		<recoverytime>300</recoverytime>
+		<recoverymax>50</recoverymax>
+		<initvalue>500</initvalue>
+		<maxcredit>-500</maxcredit>
+		<feedbackRate>0.9</feedbackRate>
+		<maxbullent>999999</maxbullent>
+		<!--特殊子弹倍数-->
+		<specialbullet>5</specialbullet>
+		<tutorial>
+			<monster count="5"></monster>
+			<boss id="370016"></boss>
+			<max value="25"></max>
+		</tutorial>
+		<!--任务、彩蛋、宝箱-->
+		<task>
+			<!--时间间隔（单位：秒）-->
+			<interval>600,900</interval>
+			<!--累计子弹范围数出彩蛋-->
+			<surpriseRand>1,2</surpriseRand>
+			<!--宝箱条件-->
+			<boxcondition>1,2</boxcondition>
+			<!--宝箱模型-->
+			<boxmodule module="1020023"></boxmodule>
+			
+			<!--buff怪教学 累计消耗50发子弹 、特殊子弹5发、必中-->
+			<buffjx condition="50" kind="0" num="5"></buffjx>
+			<!--任务教学 出现时间3分钟 、类型为指定击杀、击杀目标为屁股星小兵、数量为5 持续时间10分钟-->
+			<mission condition="180" index="0" kind="0" kill="1020002" targetnum="5" time="600"></mission>
+			<!--宝箱教学-->
+			<boxjx condition="100" blood="30" time="30"></boxjx>
+		</task>
+	</ShouLie>
+	
+	<!-- 抢亲 -->
+	<qiangqin>
+		<!-- 仆人最大服侍时间24*3600 -->
+		<time>86400</time>
+		<!-- 仆人最大数量(可以增加，减少需要清除数据) -->
+		<num>3</num>
+		<!-- 每日抓捕次数上限(被23号表取代) -->
+		<maxnum>5</maxnum>
+		<!-- 每日互动次数上限(被23号表取代) -->
+		<maxnum2>5</maxnum2>
+		<!-- 每日逃亡次数上限(被23号表取代) -->
+		<maxnum3>3</maxnum3>
+		<!-- 互动冷却时间(分钟) -->
+		<cooltime>10</cooltime>
+		<!-- 服侍时间计算单位(分钟) -->
+		<unit>10</unit>
+	</qiangqin>
+	
+	
+	<!-- 军团红包  -->
+	<ClubRedPacket>
+		<!-- 每日发出红包上限  -->
+		<packLimit>5000</packLimit>	
+		<!-- 红包过期时间，分钟  -->
+		<packPastude>1440</packPastude>
+		<!-- 服务器存储红包上限数量  -->	
+		<packSaveLimit>20</packSaveLimit>
+	</ClubRedPacket>
+	
+	<!-- 微信配置 -->
+	<WeiXin>
+		<!-- 奖励是否动态配置 -->
+		<dynamicLoad>false</dynamicLoad>
+		<!-- 打印debug日志 -->
+		<logDebug>true</logDebug>
+	</WeiXin>
+	
+		<!-- 客户端版本信息文件路径 -->
+	<ClientVersion>
+		<configPath>/data/gameserver/conf/a.xml</configPath>
+	</ClientVersion>
+	
+	<GM>
+		<ChatLog>true</ChatLog>
+		<!-- 蒋坤峰新增 游戏内聊天内容推送url  -->
+		<Chaturl></Chaturl>
+		<!-- 开服活动起始时间  -->
+		<KaiFuStartAt>2017-12-16</KaiFuStartAt>
+		<!-- 开服活动结束时间  -->
+		<KaiFuEndAt>2017-12-22</KaiFuEndAt>
+		<OldNoneRmbJiangLi>320099</OldNoneRmbJiangLi>
+	</GM>
+
+	<!-- 答题配置 -->
+
+	<answer>
+		<!-- 开启日期，星期一为1，星期天为7 -->
+		<startWeek>3,5,7</startWeek>
+		<!-- 开始时间 小时和分钟，格式为 (1,20 一点二十分开启) -->
+		<startTime>13,00</startTime>
+		<!-- 答题时间分钟-->
+		<openTime>30</openTime>
+		<!-- 排行展示时间 分钟-->
+		<rankTime>60</rankTime>
+		<!-- 提前几分钟主场景图标出现-->
+		<beforshow>10</beforshow>
+		<!-- 每轮答题数量-->
+		<answernum>30</answernum>
+		<!-- 排行榜显示前多少名-->
+		<ranknum>30</ranknum>
+		<!-- 必出二选题间隔题目数-->
+		<twoselect>5</twoselect>
+		<!-- 每道题的时间间隔 毫秒-->
+		<timespace>1500</timespace>
+	</answer>
+
+
+	<!-- 活动游戏-->
+
+	<huodongyouxi>
+		<!-- 转轮开始时间 -->
+		<openTime>2018-1-1,2018-1-9</openTime>
+		<!-- 转轮关闭时间(指最后一天时间) -->
+		<closeTime>2018-1-2,2018-1-10</closeTime>
+		<!-- 魔方开始时间 -->
+		<openTime2>2018-1-4,2018-1-8,2018-1-12</openTime2>
+		<!-- 魔方结束时间 -->
+		<closeTime2>2018-1-5,2018-1-8,2018-1-13</closeTime2>
+		<!-- 魔方每日最大游戏次数 -->
+		<num2>10</num2>
+		<!-- 翻翻乐消耗的钻石 -->
+		<zuanshineed>100</zuanshineed>
+		<!-- 翻翻乐开启时间(年-月-日)-->
+		<fflstart>2018-1-6,2018-1-30</fflstart>
+		<!-- 翻翻乐关闭时间(年-月-日(包含当天))-->
+		<fflend>2018-1-7,2018-1-31</fflend>
+		<!-- 翻翻乐每日可玩次数(年-月-日-时-分)-->
+		<fflmaxtime>1</fflmaxtime>
+	</huodongyouxi>
+
+	<juntuanzhan>
+		<!-- （军团战开启）星期(特例：星期天为1，星期六为7) -->
+		<day>3,5</day>
+		<!-- 开启具体时间 -->
+		<hour>20</hour>
+		<minute>00</minute>
+		<!-- 开启第一阶段时间(对比活动开启时间) 生成对决名单 -->
+		<stage1>130</stage1>
+		<!-- 开启第二阶段时间(对比活动开启时间) 报名阶段 -->
+		<stage2>120</stage2>
+		<!-- 房间准备等待时间（秒） -->
+		<ready>90</ready>
+		<!-- 房间更新人数和支持率（秒） -->
+		<flush>1</flush>
+		<!-- 军团战自动报名（0关闭 1开启）【正式服一定要为0！！！！！】 -->
+		<auto>0</auto>
+		<!-- 每个军团自动报名人数上限 -->
+		<autoNum>0</autoNum>
+		<!-- debuff衰减数值百分比（攻击、防御） -->
+		<debuff>6</debuff>
+		<!-- 跨服军团战自动报名（0关闭 1开启）【正式服一定要为0！！！！！】 -->
+		<auto2>0</auto2>
+		<!-- 跨服军团战每个军团自动报名人数上限 -->
+		<autoNum2>0</autoNum2>
+	</juntuanzhan>
+	
+	<!-- 下载奖励 -->
+	<downloadaward>
+		<jlid>3333</jlid>
+	</downloadaward>
+	<!-- 怪物攻城 -->
+	<monstersiege>
+		<!-- 开启日期，星期一为1，星期天为7 -->
+		<startWeek>1,3,5</startWeek>
+		<!-- 开始时间 小时和分钟，格式为 (1,20 一点二十分开启) -->
+		<startTime>21,00</startTime>
+		<!-- 活动时间分钟-->
+		<openTime>30</openTime>
+		<!-- 出怪间隔秒-->
+		<calldelay>15</calldelay>
+		<!-- 玩家攻击间隔（毫秒）-->
+		<playeratttime>1000</playeratttime>
+		<!-- 玩家死亡复活（毫秒）-->
+		<playerdedtime>20000</playerdedtime>
+		
+		<!-- 怪物移动频率(毫秒)，在空闲状态时巡逻 -->
+		<monstermove>5000</monstermove>
+		<!-- 怪物移动速度 -->
+		<monsterspeed>3500</monsterspeed>
+		<!-- 玩家移动速度 -->
+		<playerspeed>7000</playerspeed>
+		
+		<!-- 每个房间最多多少人 -->
+		<roomplayer>10</roomplayer>
+		<!-- 退出场景惩罚时间（秒） -->
+		<puntime>30</puntime>
+		<!-- 所有怪物刷完后结束倒计时（分钟） -->
+		<tqtime>5</tqtime>
+		<!-- 宝箱掉落倒计时 (秒)-->
+		<boxtime>5</boxtime>
+		<!-- 地图参数（0,0,6000） 中心点x,y 半径 -->
+		<mapparam>0,0,1600</mapparam>
+		<!-- 怪物对应的分数 -->
+		<monsterpoint>0:1,1:3,2:8</monsterpoint>
+		<!-- 玩家复活无敌时间（毫秒） -->
+		<robomtime>5000</robomtime>
+		<!-- BOSS出宝箱几率，百分比 -->
+		<bossbox>100</bossbox>
+		<!-- 需要公告的奖励ID -->
+		<notfaward>10090,11001,11002,11093,11004,10095,11006,11097</notfaward>
+	</monstersiege>
+	<!--激活码-->	
+	<jihuoma>
+		<enableSpecialCode>true</enableSpecialCode>
+		<SpecialCodeBatch>10000</SpecialCodeBatch>
+		<SpecialCodeBatch2>30</SpecialCodeBatch2>
+	</jihuoma>
+	<!--十二宫-->
+	<shiergong>
+		<redlevel>20</redlevel>
+		<resetcost>10</resetcost>
+		<videosize>10</videosize>
+	</shiergong>
+
+	<dadoudou>
+		<!--活动表格ID-->
+		<tableid>2120002</tableid>
+		<!-- 活动开始时间:天(包含此日） -->
+		<openDate>2018-6-1</openDate>
+		<!-- 活动关闭时间:天（包含此日）-->
+		<closeDate>2018-6-2</closeDate>
+		<!-- 小时 -->
+		<hour>15</hour>
+		<!-- 分钟 -->
+		<minute>00</minute>
+		<!-- 活动持续时间(分钟)-->
+		<duration>170</duration>
+		<!-- 活动图标提前出现时间(分钟)-->
+		<showicon>15</showicon>
+		<!-- 同屏怪物数量-->
+		<monsternum>9</monsternum>
+		<!--获得物品记录条数-->
+		<recordNum>30</recordNum>
+	</dadoudou>
+	
+	<!-- 霸王大陆 -->
+	<bawangdalu>
+		<!-- 原地复活消耗钻石 -->
+		<reliveCost>200</reliveCost>
+		<!-- 原地复活次数 -->
+		<reliveNum>3</reliveNum>
+		<!-- 玩家(攻击、生命)计算参数 -->
+		<atk>50</atk>
+		<spd>60</spd>
+		<def>1</def>
+		<hp>20</hp>
+		<!-- 进入军团等级要求 -->
+		<need>20</need>
+		<!-- 进入队伍等级要求 -->
+		<needteam>70</needteam>
+	</bawangdalu>
+
+	<uistate>
+		<jrth>0</jrth>
+	</uistate>
+	<jianianhua>
+		<!-- 嘉年华开启时间 -->
+		<openTime>2017-7-1</openTime>
+		<!-- 嘉年华关闭时间(指最后一天时间) -->
+		<closeTime>2017-7-2</closeTime>
+		<!-- 新号嘉年华活动（注册第a-b天） -->
+		<new>2,8</new>
+	</jianianhua>
+	<xingyunlihe>
+		<!-- 幸运礼盒开启时间(多段时间) -->
+		<openTime>2018-7-31,2018-8-3</openTime>
+		<!-- 幸运礼盒关闭时间(指最后一天时间) -->
+		<closeTime>2018-7-31,2018-8-3</closeTime>
+	</xingyunlihe>
+	<paiweisai>
+		<!-- 活动开启时间(小时、分钟)-->
+		<sHour>10</sHour>
+		<sMinute>0</sMinute>
+		<!-- 活动结束时间（小时、分钟）-->
+		<eHour>22</eHour>
+		<eMinute>0</eMinute>
+		<!-- 每日最大挑战次数-->
+		<battleNum>10</battleNum>
+		<!-- 战斗冷却时间（秒） -->
+		<cool>180</cool>
+		<!-- 积分增加间隔(秒) -->
+		<scoreGap>300</scoreGap>
+		<!-- 开启时间偏移开关(0关  1开) -->
+		<flag>0</flag>
+	</paiweisai>
+	<huiguihuodong>
+		<!-- 开启时间(多段时间) -->
+		<openTime>2017-12-27</openTime>
+		<!-- 关闭时间(指最后一天时间) -->
+		<closeTime>2018-1-10</closeTime>
+	</huiguihuodong>
+	<chenghaoshangcheng>
+		<!-- 开启时间(多段时间) -->
+		<openTime>2018-1-14,2018-1-21</openTime>
+		<!-- 关闭时间(指最后一天时间) -->
+		<closeTime>2018-1-15,2018-1-22</closeTime>
+	</chenghaoshangcheng>
+    <huodongred>
+		<!-- 春节红包开启时间(多段时间) -->
+		<openTime>2017-12-7</openTime>
+		<!-- 关闭时间(指最后一天时间) -->
+		<closeTime>2018-1-30</closeTime>
+		<!-- 红包总上限 -->
+		<max>30</max>
+	</huodongred>
+	<chaozhijuhui>
+		<!-- 超值钜惠开启时间(多段时间) -->
+		<openTime>2018-1-9,2018-1-25</openTime>
+		<!-- 超值钜惠关闭时间(指最后一天时间) -->
+		<closeTime>2018-1-10,2018-1-26</closeTime>
+		<!-- 充值批次(钻石)-->
+		<recharge>0,3280,12960</recharge>
+		<!-- 充值批次对应可购买次数-->
+		<buyCount>1,2,3</buyCount>		
+		<!-- 物品表格ID-->
+		<goodstable>244</goodstable>
+	</chaozhijuhui>
+	<!--双倍充值-->
+	<doublerecharge>
+		<!-- 双倍充值活动开启时间(多段时间) -->
+		<openTime>2018-1-5,2018-1-14,2018-1-21</openTime>
+		<!-- 双倍充值活动关闭时间(指最后一天时间) -->
+		<closeTime>2018-1-5,2018-1-14,2018-1-21</closeTime>		
+		<!-- 双倍充值活动渠道类型 0白名单 1黑名单-->
+		<agentType>0</agentType>
+		<!-- 双倍充值活动白名单渠道-->
+		<whiltAgent>1,2,3,4,5,6,7,8,9</whiltAgent>
+		<!-- 双倍充值活动黑名单渠道-->
+		<blackAgent>11111</blackAgent>
+	</doublerecharge>
+</Content>

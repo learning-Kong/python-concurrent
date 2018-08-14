@@ -1,4 +1,4 @@
-# -*- conding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # author: "XiangLei Kong"
 
 #并发运行,效率高,但竞争同一打印终端,带来了打印错乱
