@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+# author: "XiangLei Kong"
+
 # from threading import Thread
 # import threading
 # import time
