@@ -31,7 +31,7 @@ def server():
         conn,addr = server.accept()
         P = Process(target=talk,args=(conn,))
         P.start()
-    server.close()
+        server.close()
 
 if __name__ == '__main__':
     server()

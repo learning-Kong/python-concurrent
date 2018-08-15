@@ -15,7 +15,9 @@ def talk(conn):
                                    stderr=subprocess.PIPE)
             data_out = obj.stdout.read()
             data_err = obj.stderr.read()
-            if len(data_err) != 0:break
+            if len(data_err) != 0:
+                conn.send(data_err)
+                continue
             conn.send(data_out)
         except Exception as e:
             print (e)
@@ -32,8 +34,7 @@ def Server():
         conn,addr = server.accept()
         t = Thread(target=talk,args=(conn,))
         t.start()
-
-    server.close()
+        server.close()
 
 if __name__ == "__main__":
     Server()
