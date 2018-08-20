@@ -23,20 +23,38 @@
 
 #--------------------------------------------线程池--------------------------------------------------------------
 
+# from concurrent.futures import ProcessPoolExecutor,ThreadPoolExecutor
+# from threading import current_thread
+# import os
+# import time
+#
+# def task():
+#     print ('%s is running 《pid: %s》' % (current_thread().getName(),os.getpid()))
+#     time.sleep(2)
+#
+# if __name__ == "__main__":
+#     pool = ThreadPoolExecutor(4)
+#     for i in range(10):
+#         pool.submit(task)
+#     pool.shutdown(wait=True)
+#
+#     print ("主")
+
+#---------------------------------------------------map取代for+submit-------------------------------------
 from concurrent.futures import ProcessPoolExecutor,ThreadPoolExecutor
 from threading import current_thread
 import os
 import time
 
-def task():
+def task(n):
     print ('%s is running 《pid: %s》' % (current_thread().getName(),os.getpid()))
     time.sleep(2)
 
 if __name__ == "__main__":
     pool = ThreadPoolExecutor(4)
-    for i in range(10):
-        pool.submit(task)
+    # for i in range(10):
+    #     pool.submit(task)
+    pool.map(task,range(1,11)) # 认清局限性和妙用
     pool.shutdown(wait=True)
 
     print ("主")
-
